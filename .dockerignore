@@ -1,0 +1,13 @@
+__pycache__
+*.pyc
+.pytest_cache
+.coverage
+htmlcov
+.git
+.venv
+venv
+env/
+__pycache__/
+*.pyc
+.DS_Store
+db/tinydb.db     # ← не копируем локальную БД, она будет в volume
